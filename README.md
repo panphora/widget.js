@@ -4,6 +4,10 @@ Show/hide different areas on the page depending on where the user clicks. Super 
 
 <img style="width: 100%;" src="https://github.com/panphora/widget.js/assets/364330/48892627-0e84-449e-9145-66c082142934" alt="widget.js">
 
+### Demo
+
+## [👉 Demo](https://codepen.io/panphora/pen/VwqKXBR)
+
 ### Example
 
 ```
