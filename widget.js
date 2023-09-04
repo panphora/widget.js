@@ -29,8 +29,10 @@
   ### Notes
   - this script should be executed immediately, without a defer or async attribute
     - or this line should be added to your css: `[widget] {display: none;}`
-  - limitation: can't change more than one `[widget-status]` per click
-    - this means you can't attach `[widget-status]` to more than one element in triggered element's ancestors
+  - limitations (for now -- pull requests accepted)
+    - can't change more than one `[widget-status]` per click
+      - this means you can't attach `[widget-status]` to more than one element in triggered element's ancestors
+      - this means only one `[widget-status]` will change if two `[widget-clickaway]`s are activated
 */
 
 (function () {
@@ -99,7 +101,7 @@
       activatedClickAwayElems.forEach(activatedClickAwayElem => {
         let widgetNamesToTurnOff = getValuesFromAttr(activatedClickAwayElem, "widget-clickaway");
         widgetNamesToTurnOff.forEach(widgetNameToTurnOff => {
-          let widgetTurnedOnElem = targetElem.closest(`[widget-status~="${widgetNameToTurnOff}\:on"]`);
+          let widgetTurnedOnElem = document.querySelector(`[widget-status~="${widgetNameToTurnOff}\:on"]`);
           if (widgetTurnedOnElem) {
             removeValueFromAttr(widgetTurnedOnElem, "widget-status", `${widgetNameToTurnOff}\:on`);
             addValueToAttr(widgetTurnedOnElem, "widget-status", `${widgetNameToTurnOff}\:off`);
