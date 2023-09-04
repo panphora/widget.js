@@ -29,8 +29,8 @@
   ### Notes
   - this script should be executed immediately, without a defer or async attribute
     - or this line should be added to your css: `[widget] {display: none;}`
-  - limitation: can't change more than one widget status area
-  - limitation: can't attach widget status to more than one element in triggered element's ancestors
+  - limitation: can't change more than one `[widget-status]` per click
+    - this means you can't attach `[widget-status]` to more than one element in triggered element's ancestors
 */
 
 function getValuesFromAttr (elem, attrName) {
