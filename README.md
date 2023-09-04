@@ -1,4 +1,4 @@
-# WIDGET.JS
+# widget.js
 
 Show/hide different areas on the page depending on where the user clicks. Super useful.
 
