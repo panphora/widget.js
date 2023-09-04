@@ -1,6 +1,6 @@
 {
   "name": "widget-area",
-  "version": "1.12.25",
+  "version": "1.12.26",
   "description": "Show/hide different areas on the page depending on where the user clicks. Super useful.",
   "main": "widget.js",
   "scripts": {
