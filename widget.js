@@ -8,7 +8,7 @@
   
   ```
   <head>
-    <script src="https://cdn.jsdelivr.net/gh/panphora/widget.js@1.12.4/widget.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/widget-area@1.12.25/widget.min.js"></script>
   </head>
   <body widget-status="mobile-sidebar:off">
     <button widget-on="mobile-sidebar">OPEN MOBILE MENU</button>
