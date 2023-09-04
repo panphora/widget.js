@@ -6,7 +6,7 @@ Show/hide groups of elements depending on where you click on the page
 
 ```
 <head>
-  <script src="https://cdn.jsdelivr.net/gh/panphora/widget.js/widget.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/panphora/widget.js@main/widget.js"></script>
 </head>
 <body widget-status="mobile-sidebar:off">
   <button widget-on="mobile-sidebar">OPEN MOBILE MENU</button>
