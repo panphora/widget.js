@@ -1,0 +1,9 @@
+{
+  "name": "widget",
+  "version": "1.12.25",
+  "description": "Show/hide different areas on the page depending on where the user clicks. Super useful.",
+  "main": "widget.js",
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
