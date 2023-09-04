@@ -1,6 +1,6 @@
 # WIDGET.JS
 
-Show/hide groups of elements depending on where you click on the page
+Show/hide different areas on the page depending on where the user clicks. Super useful.
 
 ### Example
 
