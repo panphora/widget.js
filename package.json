@@ -3,7 +3,14 @@
   "version": "1.12.25",
   "description": "Show/hide different areas on the page depending on where the user clicks. Super useful.",
   "main": "widget.js",
+  "scripts": {
+    "minify": "terser widget.js -c -m -o widget.min.js",
+    "release": "npm version patch && git push && git push --tags && npm publish"
+  },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "terser": "^5.19.3"
+  }
 }
